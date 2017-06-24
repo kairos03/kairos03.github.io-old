@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Jekyll로 Github Page 블로그 만들기"
-date: 2017-06-20 01:45:12 +0900
+date: 2017-06-24 09:53:12 +0900
 categories: jekyll update
 ---
 ## Jekyll이란?
@@ -43,3 +43,5 @@ repo를 클론 할 폴더로 이동 후 clone, 샘플 페이지를 만든다.
 그럼 페이지가 호스팅 되기전 까지 Jekyll을 세팅해보자!
 
 ### Jekyll setting
+
+# 추가예정
