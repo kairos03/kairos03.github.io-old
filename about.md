@@ -4,15 +4,16 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+![profile](https://user-images.githubusercontent.com/6357456/27507796-0e87868a-5912-11e7-8f99-31a6f141d4bc.jpg){:height="150px" width="150px"}
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+# Hi~!
+신은섭  
+EunSeop Shin  
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+ML, Deep Learning에 관심있는 프로그래머입니다.  
 
 
-[jekyll-organization]: https://github.com/jekyll
+# bio.  
+2017.06 ~ kakaocorp. 게임사업부문 A TF Assistant  
+2015.07 ~ 2016.12 경희대 ICNS 연구실 연구원  
+2015.03 ~ 경희대 컴퓨터공학과  
