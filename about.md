@@ -14,6 +14,7 @@ ML, Deep Learning에 관심있는 프로그래머입니다.
 
 
 # bio.  
-2017.06 ~ kakaocorp. 게임사업부문 A TF Assistant  
-2015.07 ~ 2016.12 경희대 ICNS 연구실 연구원  
+2017.09 ~ KIST Europe. Smart Convergence Group Assistant  
+2017.06 ~ 2017.08 kakaocorp. 게임사업부문 A TF Assistant  
+2015.07 ~ 2016.12 경희대 ICNS 연구실. 학부 연구생  
 2015.03 ~ 경희대 컴퓨터공학과  

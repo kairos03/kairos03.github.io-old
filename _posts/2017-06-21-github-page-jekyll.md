@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Jekyll로 Github Page 블로그 만들기"
+title: Jekyll로 Github Page 블로그 만들기
 date: 2017-06-24 09:53:12 +0900
-categories: jekyll update
+categories: Jekyll Tutorial
 ---
 ## Jekyll이란?
 
