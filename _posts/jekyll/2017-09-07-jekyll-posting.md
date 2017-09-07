@@ -1,0 +1,33 @@
+---
+layout: post
+title: Jekyll에 포스팅 하기
+date: 2017-09-07
+tag:    [jekyll, 지킬, posting, 포스팅, 글쓰기]
+---
+how to posting using jekyll
+
+Jekyll의 가장 큰 장점은 `블로그 지향적`이라는 점입니다.
+불필요한 데이터베이스나 다른 설정, 관리 없이 자신의 컴퓨터 안의 텍스트 파일과 
+폴더만 관리하는 것만으로 블로그 운영이 가능하죠!
+
+## 포스트 폴더
+블로그의 모든 포스트들은 `_posts`폴더에 저장해야만 합니다. 모든 포스트는 적당한 
+[YAML 머리말](http://jekyllrb-ko.github.io/docs/frontmatter/)을 포함해야하고
+최종적으로 변환을 거처 당신의 사이트를 구성하는 HTML 웹 페이지가 됩니다.
+
+## 포스트 파일 생성
+새 포스트는 `_posts`폴더 내에 새 파일을 생성하는 것만으로 만들수 있습니다. 다만 
+Jekyll이 그 파일을 포스트로 인식하려면 다음과 같은 규칙의 파일명을 가져야 합니다.
+```
+YYYY-MM-DD-title.MARKUP
+```
+YYYY는 네자리 년도, MM과 DD는 각각 두자리 월과 일을 뜻합니다. 올바른 포스트 파일명은 
+다음 예시와 같습니다.
+```
+2017-09-07-jekyll-posting.md
+2016-03-22-hello-jekyll.txt
+``` 
+
+---
+위 포스트는 지킬의 공식 [포스트](http://jekyllrb-ko.github.io/docs/posts/)를
+참고하여 작성하였습니다.

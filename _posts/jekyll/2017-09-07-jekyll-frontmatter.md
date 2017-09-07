@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  Jekyll Frontmatter
-category:   jekyll
-tag:    [jekyll, 지킬, header, option, pre-defined, user-defined]
 date: 2017-09-07
+tag:    [jekyll, 지킬, header, option, pre-defined, user-defined]
 author-name: kairos
 ---
 지킬 머릿말
@@ -27,7 +26,7 @@ jekyll의 header에는 페이지 또는 머릿말에 사용할 수 있는 다양
 ### layout
 사용할 레이아웃 파일을 지정합니다. 
 레이아웃 파일명에서 확장자를 제외한 나머지 부분만 입력합니다. 
-레이아웃 파일은 **반드시 `_layouts`** 디렉토리에 존재해야 합니다:  
+레이아웃 파일은 **반드시 _layouts** 디렉토리에 존재해야 합니다:  
 
 ```yaml
 ---

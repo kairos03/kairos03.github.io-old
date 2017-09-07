@@ -1,9 +1,13 @@
 ---
 layout: post
 title: Jekyll로 Github Page 블로그 만들기
-date: 2017-06-24 09:53:12 +0900
-categories: Jekyll Tutorial
+date: 2017-06-24
+categories: Jekyll
+tag: [jekyll, 지킬, github-page, blog, 블로그]
 ---
+빠른 시작 설명서
+Build your own blog using jekyll and github
+
 ## Jekyll이란?
 
 `심플함, 정적, 블로그 지향적`  

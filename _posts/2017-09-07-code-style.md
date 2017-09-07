@@ -2,7 +2,7 @@
 layout: post
 title:  CodeStyling
 categories: Markdown
-# published: false
+published: false
 ---
 
 # Code Styling in jekyll
