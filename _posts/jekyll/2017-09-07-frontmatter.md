@@ -5,7 +5,7 @@ date: 2017-09-07
 tag:    [jekyll, 지킬, header, option, pre-defined, user-defined]
 author-name: kairos
 ---
-지킬 머릿말
+지킬 포스트의 시작을 알리는 머릿말의 속성들을 알아봅니다.
 
 ## Jekyll Frontmatter
 Jekyll의 멋있는 기능 중 가장 첫번째는 머릿말 기능입니다.  

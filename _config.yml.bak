@@ -101,10 +101,12 @@ defaults:
     scope:
       path: "Jekyll"
     values:
+      layout: post
       category: "Jekyll"
   -
     scope:
       path: "DeepLearning"
     values:
+      layout: post
       category: "DeepLearning"
       
