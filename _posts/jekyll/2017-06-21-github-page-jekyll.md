@@ -2,11 +2,12 @@
 layout: post
 title: Jekyll로 Github Page 블로그 만들기
 date: 2017-06-24
-tag: [jekyll, 지킬, github-page, blog, 블로그]
+tag: [jekyll, github-page, blog]
+cover: assets/img/jekyll_logo.png
 ---
 지킬과 깃허브 페이지를 이용한 빠른 시작 설명서    
 
-## Jekyll이란?
+# Jekyll이란?
 `심플함, 정적, 블로그 지향적`  
 간단히 말해 개인 블로거에게 아주 알맞는 프레임워크!
 
@@ -15,7 +16,7 @@ tag: [jekyll, 지킬, github-page, blog, 블로그]
 
 자세한 설명은 [링크](https://jekyllrb.com/) 참조!
 
-## Github page란?
+# Github page란?
 github에서 제공하는 무료 홈페이지 호스팅으로 자신의 이름, 단체명, 프로젝트 명으로 생성할수 있습니다.
 
 간단하게 `[username].github.io` 라는 repo를 만들면
@@ -23,9 +24,9 @@ github에서 제공하는 무료 홈페이지 호스팅으로 자신의 이름, 
 
 자세한 설명은 [링크](https://pages.github.com/) 참조!
 
-## How To Work?
+# How To Work?
 
-### github repo 만들기
+## github repo 만들기
 1. github에 `[username].github.io` repo 만들기     
     ![make_repo](https://user-images.githubusercontent.com/6357456/27508224-799bfbb4-591b-11e7-8099-f5cf172f32d7.png)  
 2. repo clone  
@@ -44,13 +45,13 @@ $ git push -u origin remote
 이렇게 하면 repo가 만들어지고 몇 시간 후에 자신의 이름으로 된 페이지가 호스팅됩니다.  
 그럼 페이지가 호스팅 되기전 까지 Jekyll을 세팅해봅시다!
 
-### Jekyll Install
+## Jekyll Install
 Linux와 Windows 두가지 플랫폼에서 설치를 설명합니다.
 각각 설치법은 아래 공식페이지를 참조했습니다. 
 1. [Jekyll Linux](https://jekyllrb.com/docs/installation/)
 2. [Jekyll Windows](https://jekyllrb.com/docs/windows/) 
 
-#### Linux
+### Linux
 > Ubuntu 16.04.3을 기준으로 설명합니다.
 
 추가예정
@@ -91,7 +92,7 @@ $ jekyll -v
 ```
 설치 완료!
 
-## 테스트 블로그 만들고 로컬에서 돌려보기
+# 테스트 블로그 만들고 로컬에서 돌려보기
 실제 github page에 올리기 전에 간단히 구조를 살펴보기위해 테스트 블로그를 만들어보겠습니다!
 
 새 블로그 이름을 `my_blog`로 만듭니다.
@@ -109,7 +110,7 @@ $ jekyll serve
 > ***NOTE.*** 2.4 버전 부터 자동으로 변경사항을 감지하여 빌드를 다시 해 줍니다.  
 > ***NOTE.*** 더 자세한 명령은 [다음](http://jekyllrb-ko.github.io/docs/usage/)을 참고
 
-### Github Page에 올리기!
+## Github Page에 올리기!
 
 [github repo 만들기](#github repo 만들기), [Jekyll Install](#Jekyll Install)에서 만들었던 폴더들은 지운다.
 
@@ -132,7 +133,7 @@ remote repo url은 git@github.com:[username]/[username].github.io.git 이렇게 
 ![init_blog](https://user-images.githubusercontent.com/6357456/27743476-1a153f3a-5df7-11e7-8df7-2c46c5a3475d.png)  
 이렇게 잘 호스팅이 되어있습니다. (저는 조금 고쳐서 제목이나 footer부분이 다르게 보입니다. ^^)
 
-### 포스팅하기
+## 포스팅하기
 `jekyll new`를 하면 폴더에 `_posts` 폴더가 생성됩니다.
 `_posts`폴더 안에 `[yyyy-mm-dd]-title.md`로 파일을 생성하면 자동으로 포스팅이 됩니다!
 
