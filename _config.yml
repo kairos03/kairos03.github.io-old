@@ -20,11 +20,11 @@ avatar: 'assets/img/profile.jpg'
 search: true
 
 # Night mode
-nightMode: true
+nightMode: false
 
 # Comments
-disqus: false
-disqus_url: 'https://liaokeyu.disqus.com/embed.js'
+disqus: true
+disqus_url: 'https://kairos03.disqus.com/embed.js'
 
 # Share
 # TODO need to fix
@@ -60,5 +60,4 @@ kramdown:
 RSS: true
 
 # Plugins
-plugins: 
-  - jekyll-paginate
+plugins: [jekyll-paginate]

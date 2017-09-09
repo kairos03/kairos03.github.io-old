@@ -3,7 +3,9 @@ layout: post
 title:  Jekyll 머리말
 subtitle: 지킬 포스트의 시작을 알리는 머리말의 속성들
 date: 2017-09-07
-tag:    [jekyll, 지킬, header, option, pre-defined, user-defined]
+categories: jekyll
+cover:
+tag:    [jekyll, 머리말, pre-defined, user-defined]
 author-name: kairos
 ---
 

@@ -1,6 +1,11 @@
 ---
 layout: post
 title: 초안 작성하기
+subtitle: 포스팅하기 전 초안 작성하기
+date: 2017-09-08
+categories: jekyll
+cover:
+tag:    [jekyll, posting, draft]
 ---
 
 초안 이용하기
