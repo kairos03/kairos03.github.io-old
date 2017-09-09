@@ -14,7 +14,7 @@ nav:
 author: 'Eunseop. Shin'
 nickname: 'kairos'
 bio: '도전 정신'
-avatar: 'assets/img/profile.jpg'
+avatar: '/assets/img/profile.jpg'
 
 # Search
 search: true
@@ -60,4 +60,5 @@ kramdown:
 RSS: true
 
 # Plugins
-plugins: [jekyll-paginate]
+plugins: 
+  - jekyll-paginate
