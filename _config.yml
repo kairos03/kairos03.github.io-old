@@ -60,4 +60,5 @@ kramdown:
 RSS: true
 
 # Plugins
-plugins: [jekyll-paginate]
+plugins: 
+  - jekyll-paginate
