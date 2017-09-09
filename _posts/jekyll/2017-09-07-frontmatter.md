@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  Jekyll Frontmatter
+title:  Jekyll 머리말
+subtitle: 지킬 포스트의 시작을 알리는 머리말의 속성들
 date: 2017-09-07
 tag:    [jekyll, 지킬, header, option, pre-defined, user-defined]
 author-name: kairos
 ---
-지킬 포스트의 시작을 알리는 머릿말의 속성들을 알아봅니다.
 
-## Jekyll Frontmatter
-Jekyll의 멋있는 기능 중 가장 첫번째는 머릿말 기능입니다.  
-머릿말은 YAML 타입으로 처리되며 다양한 옵션을 가지고 있으며 다음과 같은 형태로  
+# Jekyll 머리말
+Jekyll의 멋있는 기능 중 가장 첫번째는 머리말 기능입니다.  
+머리말은 YAML 타입으로 처리되며 다양한 옵션을 가지고 있으며 다음과 같은 형태로  
 포스트의 최상단부분에 위치하게 됩니다.  
 
 ```yaml
@@ -19,11 +19,11 @@ title: jekyll Frontmatter
 ---
 ```
   
-## pre-defined global variables (사전-정의 전역 변수)
+# pre-defined global variables (사전-정의 전역 변수)
 jekyll의 header에는 페이지 또는 머릿말에 사용할 수 있는 다양한
 사전-정의 전역 변수들이 존재합니다.
 
-### layout
+## layout
 사용할 레이아웃 파일을 지정합니다. 
 레이아웃 파일명에서 확장자를 제외한 나머지 부분만 입력합니다. 
 레이아웃 파일은 **반드시 _layouts** 디렉토리에 존재해야 합니다:  
@@ -34,7 +34,7 @@ layout: post
 ---
 ```
 
-### permalink
+## permalink
 생성된 블로그 포스트 URL을 사이트 전역 스타일 
 (디폴트 설정: `/year/month/day/title.html`)이 아닌 다른 스타일로 만드려면, 
 이 변수를 사용하여 최종 URL 을 설정하면 됩니다. 
@@ -48,7 +48,7 @@ permalink: /:categories/:year-:month-:day/:title    #/jekyll/2017-09-07/title
 ---
 ```
 
-### published
+## published
 사이트가 생성되었을 때 특정 포스트가 나타나지 않게 하려면 false 로 설정하면 됩니다.
 default 값은 true 입니다:
  
@@ -58,7 +58,7 @@ published: false
 ---
 ```
 
-### category / categories
+## category / categories
 포스트를 특정 폴더에 넣지 않고, 포스트가 속해야 하는 카테고리를 하나 또는 그 이상 지정할 수 있습니다. 
 사이트가 생성될 때, 포스트는 그냥 평범하게 이 카테고리들에 속한 것처럼 생성됩니다. 
 두 개 이상의 카테고리들을 지정할 때에는 YAML 리스트 또는 쉼표로 구분된 문자열을 사용합니다:
@@ -70,7 +70,7 @@ categories: [jekyll, dev, kiros]
 ---
 ``` 
 
-### tag
+## tag
 카테고리와 유사하게, 하나 이상의 태그를 포스트에 추가할 수 있습니다. 
 또 카테고리와 동일하게, YAML 리스트 또는 쉼표로 구분된 문자열로 여러개를 지정할 수도 있습니다:
 
@@ -81,7 +81,7 @@ tag: [jekyll, kiros, tag, exmple]
 ---
 ```
 
-## user-defined variable (사용자-정의 변수)
+# user-defined variable (사용자-정의 변수)
 변환 작업 중, 사전-정의된 변수가 아닌 모든 머리말 변수들은 데이터로 정리되어 Liquid 템플릿 엔진에 전달됩니다. 
 예를 들어, title 변수를 설정하면 레이아웃에서 페이지 제목을 입력할 때 사용할 수 있습니다:
 
@@ -110,10 +110,10 @@ author-name: kairos
 ...
 ```
 
-## Post's pre-defined variable (포스트의 사전-정의 변수)
+# Post's pre-defined variable (포스트의 사전-정의 변수)
 포스트에서 사용할 수 있는 특별한 머릿말 변수입니다.
 
-### date
+## date
 여기에 지정한 날짜가 포스트 파일 이름에 있는 날짜보다 더 우선순위가 높습니다. 
 포스트를 올바르게 정렬하기 위해 사용할 수 있는 기능입니다. 
 날짜 형식은 `YYYY-MM-DD HH:MM:SS +/-TTTT` 입니다.

@@ -1,17 +1,18 @@
 ---
 layout: post
 title: Jekyll로 Github Page 블로그 만들기
+subtitle: 지킬과 깃허브 페이지를 이용한 빠른 시작 설명서
 date: 2017-06-24
+categories: jekyll
+cover: https://user-images.githubusercontent.com/6357456/30242776-f4414866-959c-11e7-9bc1-d4d118863b1c.png
 tag: [jekyll, github-page, blog]
-cover: assets/img/jekyll_logo.png
----
-지킬과 깃허브 페이지를 이용한 빠른 시작 설명서    
+---    
 
 # Jekyll이란?
 `심플함, 정적, 블로그 지향적`  
 간단히 말해 개인 블로거에게 아주 알맞는 프레임워크!
 
-필자도 간단한 본인의 블로그가 필요해서 사용해보기로 했습니다.  
+저도 간단한 블로그가 필요해서 사용해보기로 했습니다.  
 깃허브에서 호스팅도 공짜니 편리함과 함께 1석2조!
 
 자세한 설명은 [링크](https://jekyllrb.com/) 참조!
