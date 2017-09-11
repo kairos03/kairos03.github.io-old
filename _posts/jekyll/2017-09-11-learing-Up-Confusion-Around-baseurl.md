@@ -5,7 +5,7 @@ subtitle: "Clearing Up Confusion Around baseurl -- Again : 번역"
 date: 2017-09-11
 categories: jekyll
 cover: https://user-images.githubusercontent.com/6357456/30297748-22b5eb18-9749-11e7-9a62-db0778d709d6.png
-tag:    [jekyll, baseurl, url, github]
+tag:    [jekyll, baseurl, url, github, github-pages]
 ---
 
 jekyll 블로그를 github-page를 이용하여 구성할 때 baseurl과 관련된 문제를 겪게 되어서

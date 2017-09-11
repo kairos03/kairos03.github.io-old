@@ -5,7 +5,7 @@ subtitle: 지킬과 깃허브 페이지를 이용한 빠른 시작 설명서
 date: 2017-06-24
 categories: jekyll
 cover: https://user-images.githubusercontent.com/6357456/30242776-f4414866-959c-11e7-9bc1-d4d118863b1c.png
-tag: [jekyll, github-page, blog]
+tag: [jekyll, github-pages, blog]
 ---    
 
 # Jekyll이란?

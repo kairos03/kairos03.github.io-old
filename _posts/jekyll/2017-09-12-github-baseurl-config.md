@@ -5,7 +5,7 @@ subtitle: "baseurl: / 설정 오류"
 date: 2017-09-11
 categories: jekyll
 cover:
-tag:    [jekyll, baseurl, url, github]
+tag:    [jekyll, baseurl, url, github, github-pages]
 ---
 
 H2O테마를 적용하는데 resource를 불러오는데 문제가 생겨서 여러번의 
