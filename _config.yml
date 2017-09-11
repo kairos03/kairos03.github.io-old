@@ -2,8 +2,8 @@
 title: Kairos' devlog
 description: Hi~ wellcome to kairos' Devlog
 keyword: jekyll, DeepLearning
-# url: 'http://liaokeyu.com' # your host
-baseurl: '/'
+url: 'http://kairos03.github.io' # your host
+baseurl: ''
 
 # Navigation links
 nav:
