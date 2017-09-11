@@ -4,7 +4,7 @@ title: "baseurl과 관련된 헷갈리는 것들 정리"
 subtitle: "Clearing Up Confusion Around baseurl -- Again : 번역"
 date: 2017-09-11
 categories: jekyll
-cover:
+cover: https://user-images.githubusercontent.com/6357456/30297748-22b5eb18-9749-11e7-9a62-db0778d709d6.png
 tag:    [jekyll, baseurl, url, github]
 ---
 
