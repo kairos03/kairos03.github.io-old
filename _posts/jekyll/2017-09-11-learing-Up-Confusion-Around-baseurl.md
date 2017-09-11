@@ -8,7 +8,7 @@ cover: https://user-images.githubusercontent.com/6357456/30297748-22b5eb18-9749-
 tag:    [jekyll, baseurl, url, github]
 ---
 
-jekyll 블로그를 github-page를 이용하여 구성할 때 baseurl과 관련된 문제를 격게 되어서
+jekyll 블로그를 github-page를 이용하여 구성할 때 baseurl과 관련된 문제를 겪게 되어서
 baseurl에 대해 깔끔하게 정리된 
 [글](https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/)을 번역해 보았습니다.
 
