@@ -4,7 +4,7 @@ title: "Data scientist Road map"
 subtitle: "데이터 사이언티스트가 되기위한 간단한 로드맵"
 date: 2017-09-13
 categories: jekyll
-cover:
+cover: https://user-images.githubusercontent.com/6357456/30400893-9d5d22d8-98d8-11e7-9fec-30f0acfd626d.png
 tag:    [jekyll, baseurl, url, github, github-pages]
 ---
 
