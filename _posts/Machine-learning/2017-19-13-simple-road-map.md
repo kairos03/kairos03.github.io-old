@@ -2,7 +2,7 @@
 layout: post
 title: "Data scientist Road map" 
 subtitle: "데이터 사이언티스트가 되기위한 간단한 로드맵"
-date: 2017-09-11
+date: 2017-09-13
 categories: jekyll
 cover:
 tag:    [jekyll, baseurl, url, github, github-pages]
