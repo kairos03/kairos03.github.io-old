@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "baseurl과 관련된 헷갈리는 것들 정리"
+title: "baseurl과 관련된 모호한 것들 정리"
 subtitle: "Clearing Up Confusion Around baseurl -- Again : 번역"
 date: 2017-09-11
 categories: jekyll
@@ -14,20 +14,21 @@ baseurl에 대해 깔끔하게 정리된
 
 **요약: 도메인의 최상위(root)에 있지 않은 사이트를 만드려면 baseurl을 사용하세요.**
 
-Jekyll의 설정 중 하나인 `baseurl`은 몇가지 헷갈리는 부분이 있습니다. 오픈소스의 아름다움 중 하나인
-또한 Jekyll에도 해당 되는 그것은 많은 유연성이 있다는 것입니다. 
-하지만 불행히도 `baseurl`은 이러한 유연성과는 거리가 멉니다. 
+Jekyll의 설정 중 하나인 `baseurl`은 몇가지 모호한 부분이 있습니다. 
+많은 유연성이 있다는 것은 오픈소스의 아름다움 중 하나이고
+또한 Jekyll에도 해당됩니다.
+불행히도 `baseurl`은 이러한 유연성과는 거리가 멉니다. 
 여기에 그 사용의도를 빠르게 파악하고 사용하는 방법을 설명합니다.
 
 # GitHub Pages 모방하기
 `baseurl`은 [2010년에 최초로 추가](https://github.com/jekyll/jekyll/commit/4a8fc1fa6e3fa5dc05c81ac5ac4ffed0b0818ac4)되었는데
 그 의도는 다음과 같습니다. 
-"내부 웹서버에서 테스트하는 유저가 프로덕션에 배포될 때와 같은 baseurl을 가지고 테스트 할 수 있도록 하기 위해"[^1]
+"내부 웹서버를 이용하여 테스트하는 유저가 프로덕션에 배포될 때와 같은 baseurl을 가지고 테스트 할 수 있도록 하기 위해"[^1]
 
 # 예제
-![baseurl예제](https://user-images.githubusercontent.com/6357456/30297748-22b5eb18-9749-11e7-9a62-db0778d709d6.png)
+![baseurl 예제](https://user-images.githubusercontent.com/6357456/30297748-22b5eb18-9749-11e7-9a62-db0778d709d6.png)
 
-자 이제 아주 멋진 새로운 프로젝트를 시작한다고 가정해 봅시다. 나는 그 프로젝트의 
+자! 이제 아주 멋진 새로운 프로젝트를 시작한다고 가정해 봅시다. 나는 그 프로젝트의 
 문서를 "example"이라는 곳에 만들고 싶고, "@jekyll"이라는 이름으로 
 GitHub-Page에 배포 하고 싶습니다. 이 문서는 다음 URL로 접근이 가능할 것입니다.
 `http://jekyll.github.io/example`  
@@ -38,14 +39,12 @@ GitHub-Page에 배포 하고 싶습니다. 이 문서는 다음 URL로 접근이
 baseurl: /example
 ```
 
-제가 웹사이트를 개발하려 할 때, 보통 `jekyll serve`를 실행시킵니다. 그러나 이번에는 
-`http://localhost:4000/example/`로 들어갑니다.
-`baseurl`이 하는 일은 도메인과 함께 베이스 패스를 특정하는 것입니다. 
-만약 단지 `http://localhost:4000/`으로 접근을 시도했다면 
-당신은 곧 에러메시지를 볼 수 있을 것입니다.
-모든 링크를 올바르게 연결했다면 경로의 시작 부분에 `/example`과 같은 URL이 표시되지 않습니다.
-  
-다음과 같이 설정할 수 있을 것입니다.
+웹사이트를 개발하려 할 때는 보통과 같이 `jekyll serve`를 실행시킵니다. 
+그러나 이번에는 `http://localhost:4000/example/`로 들어갑니다.
+`baseurl`은 사이트가 존재하는 도메인에 상대적인 기본 경로를 지정합니다.
+만약 `http://localhost:4000/`으로 접근을 시도했다면 에러메시지를 볼 수 있을 것입니다.
+모든 링크를 올바르게 걸었다면 경로의 시작 부분에 `/example`이 없는 URL은 절대 볼수 없을 것입니다.   
+경로는 다음과 같이 설정할 수 있을 것입니다.
 ```yml
 {% raw %}{{ page.path | prepend: site.baseurl }}{% endraw %}
 ```
