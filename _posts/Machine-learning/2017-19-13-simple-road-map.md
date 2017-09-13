@@ -4,14 +4,12 @@ title: "Data scientist Road map"
 subtitle: "데이터 사이언티스트가 되기위한 간단한 로드맵"
 date: 2017-09-13
 categories: jekyll
-cover: https://user-images.githubusercontent.com/6357456/30400893-9d5d22d8-98d8-11e7-9fec-30f0acfd626d.png
-tag:    [jekyll, baseurl, url, github, github-pages]
+cover: https://user-images.githubusercontent.com/6357456/30400999-0292737e-98d9-11e7-85db-e285664af667.png
+tag:    [AI, machine-learning, deep-learning, road-map]
 ---
 
 > 이 글은 제가 데이터 사이언티스트라는 진로를 위해 들은 조언과 
 방법들에 대해 적어 놓은 글입니다.
-
-<br>  
 
 > 현재 작성중인 글입니다.
 
