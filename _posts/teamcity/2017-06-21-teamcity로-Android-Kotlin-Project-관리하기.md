@@ -4,9 +4,11 @@ title:  TeamCity로 Android Kotlin Project 관리하기
 subtitle: Android CI/CD
 date:   2017-09-12
 categories: TeamCity
-cover: https://user-images.githubusercontent.com/6357456/30350256-40145f28-9816-11e7-936a-0df371759473.png
+cover: https://user-images.githubusercontent.com/6357456/30398021-2063882a-98cf-11e7-89d4-88d5e65148e0.png
 tag:    [TeamCity, CI, CD]
 ---
+
+> 작성중인 글입니다.
 
 # Teamcity?
 Jetbrains 사에서 개발한 CI/CD 툴 이며 Free버전에서는 
