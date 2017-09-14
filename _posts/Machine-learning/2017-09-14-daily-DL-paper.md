@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "17-19-14 오늘의 페이퍼"
-subtitle: "오늘의 딥러닝 논문
+subtitle: 오늘의 딥러닝 논문
 date: 2017-09-14
 categories: Machine-learning
 cover: https://user-images.githubusercontent.com/6357456/30400999-0292737e-98d9-11e7-85db-e285664af667.png
