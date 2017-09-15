@@ -36,7 +36,7 @@ Learning with Opponent-Learning Awareness(LOLA)를 소개한다. LOLA의 가장 
 분류 : 학습 모델  
 저자 : Sam Toyer, Felipe Trevizan, Sylvie Thiebaux, Lexing Xie  
 소속 : Australian National University  
-키워드 : ASNet, planning problem, policy
+키워드 : ASNet, planning problem, policy  
 pdf : <https://arxiv.org/pdf/1709.04271>  
 요약 : Action Schema Networks(ASNet)은 확률론적 계획문제를 위한 일반화된 정책 학습 모델이다.  
 
