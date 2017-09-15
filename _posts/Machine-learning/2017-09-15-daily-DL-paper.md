@@ -8,6 +8,8 @@ cover:      https://user-images.githubusercontent.com/6357456/30470074-9b04e2fc-
 tag:        [AI, machine-learning, deep-learning, paper, trend]
 ---
 
+> 오늘은 인간과 인공지능간의 상호작용에 대한 논문이 많습니다. RL은 꾸준히 올라오고 있고, GAN도 한편 보이네요.
+
 ## General problem solving with category theory
 국문 : 카테고리 이론을 이용한 일반적인 문제 풀이  
 저자 : Francisco J. Arjonilla, Tetsuya Ogata  
