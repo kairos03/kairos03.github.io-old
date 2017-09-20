@@ -9,9 +9,9 @@ tag:    [AI, machine-learning, deep-learning, paper, trend]
 ---
 
 ## Supervising Unsupervised Learning<br>
-국문 : <br>
+국문 : 비지도 학습 감독하기<br>
 저자 : Vikas K. Garg, Adam Kalai<br>
-키워드 :<br>
+키워드 : unsupervised-learning, supervise<br>
 pdf : <https://arxiv.org/pdf/1709.05262><br>
 요약 : <br>
 
