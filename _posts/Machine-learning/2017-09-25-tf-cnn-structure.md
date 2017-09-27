@@ -4,7 +4,7 @@ title: Tensor flow CNN code review
 subtitle: conv2d, filter, padding, stride, max_pool
 date: 2017-09-25
 categories: Machine-learning
-cover: https://user-images.githubusercontent.com/6357456/30470074-9b04e2fc-99f3-11e7-9c89-869dc06cc8f3.png
+cover: https://user-images.githubusercontent.com/6357456/30913863-eb165940-a391-11e7-8bec-d686b7214b22.png
 tag:    [AI, machine-learning, deep-learning, paper, trend]
 ---
 

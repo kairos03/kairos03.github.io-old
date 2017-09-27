@@ -25,7 +25,7 @@ Gradle 과 bintray-release 를 사용하여 쉽고빠르게 안드로이드 라�
 
 4. [novoda:bintray-release](https://github.com/novoda/bintray-release) 를 사용하여 빌드후 자동 배포되도록 설정하겠습니다.
 5. 배포하고자 하는 라이브러리 `project`의 `build.gradle`의 dependencies, classpath에 다음을 추가합니다
-    ```
+    ```gradle
     buildscript {
         ext.kotlin_version = '1.1.4'
 
@@ -45,7 +45,7 @@ Gradle 과 bintray-release 를 사용하여 쉽고빠르게 안드로이드 라�
     ![image](https://user-images.githubusercontent.com/6357456/30903128-fa9478da-a36d-11e7-95ae-c92b8119f197.png)
     > project 와 Module 의 build.gradle 를 잘보고 추가하시기 바랍니다.
 6. 라이브러리의 모듈의 build.gradle 에 사용자 정보와 라이브러리 설명을 추가합니다. <br>
-    ```
+    ```gradle
     apply plugin: 'com.android.library'
     apply plugin: 'kotlin-android'
     apply plugin: 'kotlin-android-extensions'
