@@ -4,7 +4,7 @@ title:  jCenter에 Android 라이브러리 쉽고 빠르게 배포하기
 subtitle: Android library deploy to jCenter
 date:   2017-09-27
 categories: android
-cover:
+cover:  https://user-images.githubusercontent.com/6357456/30913297-002b7bc8-a390-11e7-9421-7c60bb340bf6.png
 tag:    [andorid, jcenter, maven, kotlin, Gradle]
 ---
 
