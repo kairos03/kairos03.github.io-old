@@ -74,7 +74,7 @@ Tensorboard에서는 5가지의 Summary를 제공합니다.
 ![image](https://user-images.githubusercontent.com/6357456/31761572-a916e4d2-b4b8-11e7-83bd-33edc4b2b18f.png)
 ![image](https://user-images.githubusercontent.com/6357456/31761586-bc08d4d8-b4b8-11e7-8de2-d7cc528e7c6f.png)
 
-위와 같이 tf.summary.scalar, tf.summary.histogram 등을 통해서 간단히 서러미 할수 있습니다.
+위와 같이 tf.summary.scalar, tf.summary.histogram 등을 통해서 간단히 Summary 할수 있습니다.
 
 Summary의 작동방식은 다음과 같습니다.
 1. Summary op가 프로토콜 버퍼를 리텅합니다.
@@ -91,3 +91,5 @@ Summary의 작동방식은 다음과 같습니다.
 
 # Embedding
 
+---
+오타, 내용 질문은 언제나 환영입니다. ^^
