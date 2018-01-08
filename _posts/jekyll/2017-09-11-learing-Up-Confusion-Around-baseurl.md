@@ -26,7 +26,7 @@ Jekyll의 설정 중 하나인 `baseurl`은 몇가지 모호한 부분이 있습
 "내부 웹서버를 이용하여 테스트하는 유저가 프로덕션에 배포될 때와 같은 baseurl을 가지고 테스트 할 수 있도록 하기 위해"[^1]
 
 # 예제
-![baseurl 예제](https://user-images.githubusercontent.com/6357456/30297748-22b5eb18-9749-11e7-9a62-db0778d709d6.png)
+![baseurl 예제]({{ site.baseurl }}/assets/img/posts/jekyll/2017-09-11-learing-Up-Confusion-Around-baseurl/1.png)
 
 자! 이제 아주 멋진 새로운 프로젝트를 시작한다고 가정해 봅시다. 나는 그 프로젝트의 
 문서를 "example"이라는 곳에 만들고 싶고, "@jekyll"이라는 이름으로 

@@ -2,13 +2,11 @@
 layout: post
 title:  jCenter에 Android 라이브러리 쉽고 빠르게 배포하기
 subtitle: Android library deploy to jCenter
-date:   2017-09-27
-categories: android
-cover:  https://user-images.githubusercontent.com/6357456/30913297-002b7bc8-a390-11e7-9421-7c60bb340bf6.png
-tag:    [andorid, jcenter, maven, kotlin, Gradle]
+thumbnail: assets/img/posts/android/2017-09-27-jcenter-android-lib-publish-kotlin/thum.png
+tag: [andorid, jcenter, maven, kotlin, gradle]
 ---
 
-Gradle 과 bintray-release 를 사용하여 쉽고빠르게 안드로이드 라이브러리를 배포해 보자!
+Gradle과 bintray-release를 사용하여 쉽고 빠르게 안드로이드 라이브러리를 배포해 보자!
 
 # jCenter에 Library 배포
 1. jCenter를 운영하는 [bintray](https://bintray.com/)에 회원가입을 합니다.
@@ -16,11 +14,11 @@ Gradle 과 bintray-release 를 사용하여 쉽고빠르게 안드로이드 라�
 
 2. 개인 페이에서 할수도 있고 단체를 만들수도 있습니다. (option)
 저는 그룹 프로젝트라 그룹을 만들어서 진행했습니다.<br>
-![Group page](https://user-images.githubusercontent.com/6357456/30902691-79713db6-a36c-11e7-9d7a-2d6eb961724c.png)
+![Group page]({{ site.baseurl }}/assets/img/posts/android/2017-09-27-jcenter-android-lib-publish-kotlin/1.png)
 
 3. 다양한 리포지토리로 배포 할수 있는데 여기서는 Maven 을 사용할 것입니다.
 왼쪽아래 Repository 추가를 눌러 Maven repo를 생성합니다.<br>
-![repo create](https://user-images.githubusercontent.com/6357456/30902794-dc591124-a36c-11e7-8a35-199d4631a76d.png)
+![repo create]({{ site.baseurl }}/assets/img/posts/android/2017-09-27-jcenter-android-lib-publish-kotlin/2.png)
 사이트 설정은 끝났습니다. 안드로이드 Gradle로 넘어옵니다.
 
 4. [novoda:bintray-release](https://github.com/novoda/bintray-release) 를 사용하여 빌드후 자동 배포되도록 설정하겠습니다.
@@ -42,7 +40,7 @@ Gradle 과 bintray-release 를 사용하여 쉽고빠르게 안드로이드 라�
         }
     }
     ```
-    ![image](https://user-images.githubusercontent.com/6357456/30903128-fa9478da-a36d-11e7-95ae-c92b8119f197.png)
+    ![image]({{ site.baseurl }}/assets/img/posts/android/2017-09-27-jcenter-android-lib-publish-kotlin/3.png)
     > project 와 Module 의 build.gradle 를 잘보고 추가하시기 바랍니다.
 6. 라이브러리의 모듈의 build.gradle 에 사용자 정보와 라이브러리 설명을 추가합니다. <br>
     ```gradle
@@ -62,7 +60,7 @@ Gradle 과 bintray-release 를 사용하여 쉽고빠르게 안드로이드 라�
         repository = "https://github.com/GamePlatform/Campaign-SDK-Android.git"         // git repo
     }
     ```
-    ![image](https://user-images.githubusercontent.com/6357456/30903611-a3c49f4c-a36f-11e7-99c1-060598785118.png)
+    ![image]({{ site.baseurl }}/assets/img/posts/android/2017-09-27-jcenter-android-lib-publish-kotlin/4.png)
     > GroupId, artifactId의 컨벤션을 꼭 지키시기 바랍니다.
 
 7. 터미널에서 아래 명령으로 빌드합니다.
@@ -76,10 +74,10 @@ Gradle 과 bintray-release 를 사용하여 쉽고빠르게 안드로이드 라�
 
 8. 빌드가 완료되면 자동으로 bin-tray 에 업로드 됩니다.<br>
 maven repo에서 확인 가능합니다.<br>
-![image](https://user-images.githubusercontent.com/6357456/30904088-24f4f9bc-a371-11e7-9d72-b335598734c3.png)
+![image]({{ site.baseurl }}/assets/img/posts/android/2017-09-27-jcenter-android-lib-publish-kotlin/5.png)
 
 9. jCenter에 올리기 위해서는 프로젝트 내부의오른쪽 아래에 있는 Link to를 누르면 간단하게 가능하다.<br>
-![image](https://user-images.githubusercontent.com/6357456/30904455-53526c12-a372-11e7-8091-a0c2567a8017.png)
+![image]({{ site.baseurl }}/assets/img/posts/android/2017-09-27-jcenter-android-lib-publish-kotlin/6.png)
 
 # kotlin javadoc 빌드 에러 해결하기
 kotlin 프로젝트 빌드시 javadoc 에러가 나는데 다음 코드를 모듈 build.gradle에 추가하면 해결이 가능하다.<br>

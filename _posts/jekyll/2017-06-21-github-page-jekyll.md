@@ -4,7 +4,7 @@ title: Jekyll로 Github Page 블로그 만들기
 subtitle: 지킬과 깃허브 페이지를 이용한 빠른 시작 설명서
 date: 2017-06-24
 categories: jekyll
-cover: https://user-images.githubusercontent.com/6357456/30242776-f4414866-959c-11e7-9bc1-d4d118863b1c.png
+thumbnail: assets/img/posts/jekyll/2017-06-21-github-page-jekyll/thum.png
 tag: [jekyll, github-pages, blog]
 ---    
 
@@ -29,7 +29,7 @@ github에서 제공하는 무료 홈페이지 호스팅으로 자신의 이름, 
 
 ## github repo 만들기
 1. github에 `[username].github.io` repo 만들기     
-    ![make_repo](https://user-images.githubusercontent.com/6357456/27508224-799bfbb4-591b-11e7-8099-f5cf172f32d7.png)  
+    ![make_repo]({{ site.baseurl }}/assets/img/posts/jekyll/2017-06-21-github-page-jekyll/1.png)  
 2. repo clone  
 repo를 clone 할 폴더로 이동 후 clone, 샘플 페이지를 만듭니다.  
 ```bash
@@ -67,7 +67,7 @@ Linux와 Windows 두가지 플랫폼에서 설치를 설명합니다.
 bash    # 시작 메뉴에서 검색가능 
 ```
 또는 다음과 같은 아이콘을 클릭해 실행 할 수 있습니다.  
-![bash on ubuntu on windows](https://user-images.githubusercontent.com/6357456/27509887-7d822f48-5941-11e7-988a-4e25138992aa.png)
+![bash on ubuntu on windows]({{ site.baseurl }}/assets/img/posts/jekyll/2017-06-21-github-page-jekyll/2.png)
 
 2. 기존의 repo list와 패키지를 업데이트 및 업그래이드 합니다.
 ```bash
@@ -131,7 +131,7 @@ $ git push
 remote repo url은 git@github.com:[username]/[username].github.io.git 이렇게 되어 있습니다.
 
 이제 `http://[username].github.io/`에 들어가보면!
-![init_blog](https://user-images.githubusercontent.com/6357456/27743476-1a153f3a-5df7-11e7-8df7-2c46c5a3475d.png)  
+![init_blog]({{ site.baseurl }}/assets/img/posts/jekyll/2017-06-21-github-page-jekyll/3.png)  
 이렇게 잘 호스팅이 되어있습니다. (저는 조금 고쳐서 제목이나 footer부분이 다르게 보입니다. ^^)
 
 ## 포스팅하기

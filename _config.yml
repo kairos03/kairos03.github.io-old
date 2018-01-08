@@ -1,64 +1,91 @@
-# Site settings 
-title: Kairos' devlog
-description: Hi~ wellcome to kairos' Devlog
-keyword: jekyll, DeepLearning
-url: 'http://kairos03.github.io' # your host
-baseurl: ''
+# SITE CONFIGURATION
+baseurl: "/blog"
+url: "https://kairos03.github.io"
 
-# Navigation links
-nav:
-  home: '/'
-  tags: '/tags.html'
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
+  # Meta
+  title: Kairos' Devlog
+  avatar: assets/img/k_logo.svg
+  favicon: assets/img/profile.jpg
+  gravatar: # Email MD5 hash
+  description: "A website with blog posts and pages" # used by search engines
 
-# Author 
-author: 'Eunseop. Shin'
-nickname: 'kairos'
-bio: '도전 정신'
-avatar: '/assets/img/profile.jpg'
+  # Header and footer text
+  header_text: > #two or three lines to describe your site
+     <p> For Sweet Coding!</p>
+  header_text_feature_image: assets/img/pexels/triangular.jpeg
+  footer_text: >
+   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
-# Search
-search: true
+  # Icons
+  rss: true
+  email_address: kairos9603@gmail.com # Full email address, e.g. "sam@example.com"
+  behance:
+  bitbucket:
+  dribbble:
+  facebook: eunseop.shin
+  flickr:
+  gitlab:
+  github: "kairos03"
+  google_plus:
+  instagram: 
+  keybase:
+  linkedin:  # Full URL
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter: # "twitter username"
+  vimeo:
+  wordpress:
+  youtube:
 
-# Night mode
-nightMode: false
+  # Scripts / Features 
+  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname: kairos03
+  katex: true # Enable if using math markup
+  portfolio: true
+  search: true
+  tags: true
+  
+  
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next_post: "Next post"
+  str_previous_post: "Previous post"
+  str_next_page: "Next"
+  str_previous_page: "Prev"
+  str_continue_reading: "Continue reading"
+  str_javascript_required_disqus: "Please enable JavaScript to view comments."
 
-# Comments
-disqus: true
-disqus_url: 'https://kairos03.disqus.com/embed.js'
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
 
-# Share
-# TODO need to fix
-social-share: true
-social-share-items: ['facebook', 'twitter']
+  # Post navigation
+  post_navigation: true
 
-# theme color
-theme-color: 'default'  # pink or default
+# PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
 
-# Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
-postPatterns: 'ticTacToe'
+# PORTFOLIO
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name
 
-# SNS settings url: weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
-sns:
-  facebook: '//facebook.com/eunseop.shin'
-  github: '//github.com/kairos03'
-
-# Tags
-recommend-tags: true # whether or not display recommend-tags on the sidebar
-recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
-
-# Build settings
-paginate: 6
-paginate_path: 'page:num'
-exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
-
-# Markdown
+# BUILD SETTINGS
 markdown: kramdown
 highlighter: rouge
-kramdown:
-  input: GFM
-
-RSS: true
-
-# Plugins
-plugins: 
-  - jekyll-paginate
+sass:
+  sass_dir: _sass
+  style: :compressed
+plugins: [jekyll-paginate, jekyll-seo-tag]
+theme: type-on-strap # If using the theme as a jekyll theme gem
+exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png"]

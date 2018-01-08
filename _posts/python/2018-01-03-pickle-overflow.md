@@ -4,7 +4,7 @@ title: "Pickle Overflow"
 subtitle: Overflow 해결하기
 date: 2018-01-03
 categories: python
-cover: https://user-images.githubusercontent.com/6357456/34518014-a9a1dcc6-f07d-11e7-8055-7f0ec0d0e3ab.png
+thumbnail: assets/img/posts/python/2018-01-03-pickle-overflow/thum.png
 tag:    [python, pickle]
 ---
 
@@ -18,5 +18,6 @@ Pickle로 4GB 이상의 대용량 파일을 저장하려고 하면 다음과 같
 pickle.dump(d, open("file", 'w'), protocol=4)
 ```
 
+------
 참고자료
-[[https://docs.python.org/3/library/pickle.html]]
+https://docs.python.org/3/library/pickle.html
